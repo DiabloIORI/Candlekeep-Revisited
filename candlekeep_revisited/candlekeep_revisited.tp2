@@ -1,4 +1,4 @@
-BACKUP ~weidu_external/backup/candlekeep_revisited~
+BACKUP ~weidu_external/candlekeep_revisited/backup~  
 AUTHOR ~The Artisan~
 ALWAYS
   OUTER_SPRINT BGFORGE_LIB_DIR "%MOD_FOLDER%/lib/bgforge"
@@ -38,6 +38,13 @@ LANGUAGE
   ~English~ 
   ~english~
   ~%MOD_FOLDER%/tra/english/setup.tra~
+  ~%MOD_FOLDER%/tra/english/journal.tra~
+  
+LANGUAGE 
+  ~Simplified Chinese (By Yoshimo0417)~ 
+  ~schinese~
+  ~%MOD_FOLDER%/tra/schinese/setup.tra~
+  ~%MOD_FOLDER%/tra/schinese/journal.tra~
 
 BEGIN ~Candlekeep Revisited: BG1 Prologue Expansion~ DESIGNATED 0
   REQUIRE_PREDICATE (GAME_IS ~BGEE EET~) ~This mod must be installed on BG:EE or EET.~

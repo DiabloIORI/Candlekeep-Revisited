@@ -1,5 +1,4 @@
 // BAELOTH
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -8,29 +7,27 @@ IF
 	Switch("C02OspreyBaeloth1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Baeloth",~Cease your confounded chattering, chanter! You are distracting me from my diligent deliberations.~)
+	DisplayStringHead("Baeloth",~别吵了，吟游诗人！你扰得我没法专心思考。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyBaeloth1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~I must make my daily commune to my lord Deneir, Baeloth. Besides, we're far enough apart that I can't surely be bothering you that much.~)
+	DisplayStringHead("C0CR2OS",~贝洛斯，我得每日向迪奈尔主祈祷。再说我们离得够远，应该没怎么打扰到你吧。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyBaeloth1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Baeloth",~My hearing is more acute than a half-breed surfacer such as you may comprehend. I can hear every muttered word under your breath.~)
+	DisplayStringHead("Baeloth",~我的听力可比你这种半精灵地表生物敏锐得多。你低声嘀咕的每一个字我都听得见。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyBaeloth1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~Really? That must be very convenient. You're making me jealous.~)
+	DisplayStringHead("C0CR2OS",~是吗？那还真方便。我都要嫉妒了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyBaeloth1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Baeloth",~As you very well should be. Alas, it is an astronomic aspiration to achieve my amount of awe.~)
+	DisplayStringHead("Baeloth",~你本该嫉妒。哼，想达到我这般修为，可是难于登天。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyBaeloth1","MYAREA",50)
 END
-
 // CORWIN
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -39,36 +36,34 @@ IF
 	Switch("C02OspreyCorwin1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Corwin",~You have an untied bootlace, Osprey. Leave it dangling like and you're going to trip over it sooner or later.~)
+	DisplayStringHead("Corwin",~奥斯普蕾，你靴带松了。就这么晃着，早晚得绊倒。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyCorwin1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~Oh, you're right... er, I mean, thank you for your attention, captain!~)
+	DisplayStringHead("C0CR2OS",~哦，你说得对……呃，我是说，多谢提醒，队长！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyCorwin1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Corwin",~There's no need to be this formal. You may have signed on with the Fist, but there's no hierarchy between us here.~)
+	DisplayStringHead("Corwin",~不用这么拘谨。你虽然加入了炎骑士团，但在这儿我们不分上下级。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyCorwin1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~Sorry. It's just... I have a great respect for the Watchers in Candlekeep. I miss quite a few of them, so when I'm near an authority figure, I, erm...~)
+	DisplayStringHead("C0CR2OS",~抱歉。只是……我很敬重烛堡的守望者。我很想念他们，所以见到长官就，呃……~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyCorwin1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Corwin",~It's alright, I understand. Sometimes I have difficulty separating my father from the officer as well, when I'm at home.~)
+	DisplayStringHead("Corwin",~没事，我懂。有时候我在家也分不清我父亲和军官的身份。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyCorwin1","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("Corwin",~But we're not doing drills at headquarters or patrolling the city walls. Here, we're just comrades, and we look out for each other. To do that, we need to act as equals.~)
+	DisplayStringHead("Corwin",~但我们不是在总部操练，也不是在巡城。在这儿，我们就是战友，互相照应。要做到这点，就得平等相待。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 RESPONSE #60
-	DisplayStringHead("C0CR2OS",~Understood, capt—I mean, Corwin. I'll be sure to look out for you as well.~)
+	DisplayStringHead("C0CR2OS",~明白了，队——我是说，科温。我也会照应你的。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyCorwin1","MYAREA",-1)
 END
-
 // DORN
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -77,25 +72,23 @@ IF
 	Switch("C02OspreyDorn1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Dorn",~Your incessant humming is irritating. Be silent, or I will encourage you to do so.~)
+	DisplayStringHead("Dorn",~你哼个没完，烦死人了。闭嘴，不然我让你永远闭嘴。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDorn1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~Do you never seek some peace of mind, Dorn? I find that some rhythm helps me to focus.~)
+	DisplayStringHead("C0CR2OS",~多恩，你就不能消停会儿吗？我觉得有节奏能帮我集中精神。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDorn1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Dorn",~No.~)
+	DisplayStringHead("Dorn",~不能。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDorn1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~*sigh* All I need to know about you, I suppose. I try to see the best in others, but sometimes it's hard.~)
+	DisplayStringHead("C0CR2OS",~*叹气*我算是看透你了。我总试着看别人的优点，但有时候真的很难。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDorn1","MYAREA",-1)
 END
-
 // DYNAHEIR
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -104,33 +97,31 @@ IF
 	Switch("C02OspreyDynaheir1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Dynaheir",~Thou'rt a student of Cadderly, I hear. ~)
+	DisplayStringHead("Dynaheir",~听说你是卡德利的弟子。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDynaheir1","MYAREA",2)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~Yes, I am. I've only learned from him for a brief time, though.~)
+	DisplayStringHead("C0CR2OS",~是的。不过我拜师的时间还不长。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDynaheir1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Dynaheir",~If learned men such as he and Candlekeep's greatest scholars have seen fit to take thee under their wing, they must see great potential in thee.~)
+	DisplayStringHead("Dynaheir",~他与烛堡的大学士们都愿意收你为徒，足见你资质非凡。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDynaheir1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~Oh, I'm not so sure. My friends used to tell me I'm just something of a teachers' pet.~)
+	DisplayStringHead("C0CR2OS",~哦，我倒不确定。朋友们以前总说我不过是受老师偏爱罢了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDynaheir1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Dynaheir",~To seek guidance from th' learned is a step towards wisdom. I would also be pleased to assist, if thou consider me deserving.~)
+	DisplayStringHead("Dynaheir",~向博学之人求教，乃是智慧之始。若你认为我配得上，我也乐意相助。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDynaheir1","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~Do you really mean it? I'd be happy to learn from someone like you.~)
+	DisplayStringHead("C0CR2OS",~真的吗？能向您请教，我求之不得。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyDynaheir1","MYAREA",-1)
 END
-
 // EDWIN
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -139,29 +130,27 @@ IF
 	Switch("C02OspreyEdwin1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Edwin",~Keep your distance from me, scribbler.~)
+	DisplayStringHead("Edwin",~离我远点，小抄写员。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyEdwin1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~Edwin! I haven't done anything to offend you, have I?~)
+	DisplayStringHead("C0CR2OS",~艾德温！我没做什么得罪你的事吧？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyEdwin1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Edwin",~You may pretend otherwise, but I see naught but disaster in your wake. Nothing escapes my eyes.~)
+	DisplayStringHead("Edwin",~你装也没用，我看你走到哪儿，灾难就跟到哪儿。什么都逃不过我的眼睛。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyEdwin1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~This is about when I dropped my inkwell in the fire and it exploded, isn't it? I told you, I'm sorry about that!~)
+	DisplayStringHead("C0CR2OS",~是因为我把墨水瓶碰进火里炸了那件事对不对？我跟你说过了，我很抱歉！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyEdwin1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Edwin",~A feeble apology will not compensate for those scrolls. Nor the hideous stains on my robes.~)
+	DisplayStringHead("Edwin",~一句轻飘飘的道歉，赔不了那些卷轴，也赔不了我法袍上那些难看的污渍。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyEdwin1","MYAREA",-1)
 END
-
 // GLINT
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -170,37 +159,35 @@ IF
 	Switch("C02OspreyGlint1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Glint",~Erm, Osprey. I don't mean to be rude, but do those branches in your hair mean anything?~)
+	DisplayStringHead("Glint",~呃，奥斯普蕾，我无意冒犯，但你头发上那些树枝是怎么回事？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyGlint1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~What? What branches?~)
+	DisplayStringHead("C0CR2OS",~什么？什么树枝？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyGlint1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Glint",~You know, the twigs all over your head, behind your ears, and probably where I can't see them too. You're practically shedding leaves.~)
+	DisplayStringHead("Glint",~就是你头上、耳朵后面那些小树枝啊，说不定看不见的地方还有。你都快掉叶子了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyGlint1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~Aaaah! How long have all those been there? Don't tell me I've been walking around like this all day!~)
+	DisplayStringHead("C0CR2OS",~啊！这东西在头上多久了？别告诉我我一整天都顶着这东西走来走去！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyGlint1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Glint",~Oh, so they weren't a fashion statement after all. I was starting to wonder if I should find some for myself. Maybe I could weave them into my beard.~)
+	DisplayStringHead("Glint",~哦，原来不是时尚造型啊。我还在想是不是我也该弄点编胡子里。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyGlint1","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~No, nononono! It was just an accident. I walked into a bush earlier while I was reading, that's all.~)
+	DisplayStringHead("C0CR2OS",~不不不！就是个意外。我刚才看书的时候撞进灌木丛里了，就是这样。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyGlint1","MYAREA",60)
 RESPONSE #60
-	DisplayStringHead("Glint",~Huh. But you know, I was starting to think you were onto something. Some of the best ideas come from accidents.~)
+	DisplayStringHead("Glint",~哈。不过说真的，我倒觉得你没准误打误撞了。很多好点子都是意外来的。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyGlint1","MYAREA",-1)
 END
-
 // JAHEIRA
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -209,33 +196,31 @@ IF
 	Switch("C02OspreyJaheira1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Jaheira",~*sigh* Osprey, I can commend your dedication to learning, but you could do with a bit more common sense as well.~)
+	DisplayStringHead("Jaheira",~*叹气*奥斯普蕾，我赞赏你求学的热忱，但你也该多点常识。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyJaheira1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~I—I beg your pardon, Jaheira?~)
+	DisplayStringHead("C0CR2OS",~我——您说什么，贾希拉？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyJaheira1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Jaheira",~If I have to see you tripping over another rock or vine on the road, as visible as can be, it may exceed my ability to count. Please, watch where you are walking!~)
+	DisplayStringHead("Jaheira",~要是再看见你在路上被石头、藤蔓绊倒，那么显眼，我都数不过来了。拜托，走路看着点！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyJaheira1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~Eek! I—I'm sorry! I'll do my best to not disappoint you from now on! Thank you for reminding me!~)
+	DisplayStringHead("C0CR2OS",~呀！对、对不起！我以后一定注意，不让您失望！谢谢您提醒我！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyJaheira1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Jaheira",~You do not need to take such a subservient tone with me either! I am not your mother.~)
+	DisplayStringHead("Jaheira",~你也不用对我这么低声下气。我不是你母亲。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyJaheira1","MYAREA",60)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~S-sorry. Old habits die hard, I guess...~)
+	DisplayStringHead("C0CR2OS",~对、对不起。老习惯了，改不了……~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyJaheira1","MYAREA",-1)
 END
-
 // KHALID
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -244,31 +229,30 @@ IF
 	Switch("C02OspreyKhalid1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Khalid",~Y-you wear the colors of a Deneirite p-roudly, Osprey. I know a few acquaintances who would undoubtedly enjoy your c-company.~)
+	DisplayStringHead("Khalid",~你、你堂堂正正穿着迪奈尔信徒的服饰，奥斯普蕾。我认识几个熟人，肯定会很喜欢、喜欢你的。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~I'm sure I'd enjoy theirs as well. Much like I enjoy yours, Khalid.~)
+	DisplayStringHead("C0CR2OS",~我也肯定会喜欢他们的。就像我喜欢你一样，哈立德。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Khalid",~You are too k-kind. Though I believe I l-lack the scholarly background to serve as your equal.~)
+	DisplayStringHead("Khalid",~你太、太客气了。不过我觉得我没、没有那么多学识，配不上和你平起平坐。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~Now you're just being humble. You're a clever man, Khalid. And more educated than meets the eye.~)
+	DisplayStringHead("C0CR2OS",~你这就是谦虚了。你很聪明，哈立德。而且比看上去有学问得多。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Khalid",~Oh, I would not d-dare to boast of such. It is just a necessity to not let d-down those important to me.~)
+	DisplayStringHead("Khalid",~哦，我可不敢、敢夸这个口。只是不想让、让在乎的人失望罢了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid1","MYAREA",40)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~Hard work means every bit as much as talent does. I think we see eye to eye on more things than you believe, my friend.~)
+	DisplayStringHead("C0CR2OS",~努力和天赋一样重要。我觉得我们的共同点比你想的多，我的朋友。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid1","MYAREA",-1)
 END
-
 IF
 	Global("C02OspreyKhalid2","MYAREA",2)
 	Global("C02OspreyKhalid2_2","MYAREA",0)
@@ -278,7 +262,6 @@ THEN
 		SetGlobal("C02OspreyKhalid2","MYAREA",3)
 		SetGlobal("C02OspreyKhalid2_2","MYAREA",1)
 END
-
 IF
 	Global("C02OspreyKhalid2","MYAREA",2)
 	Global("C02OspreyKhalid2_2","MYAREA",0)
@@ -288,7 +271,6 @@ THEN
 		SetGlobal("C02OspreyKhalid2","MYAREA",10)
 		SetGlobal("C02OspreyKhalid2_2","MYAREA",1)
 END
-
 IF
 	Global("C02OspreyKhalid2","MYAREA",61)
 	Global("C02OspreyKhalid2_61","MYAREA",0)
@@ -298,7 +280,6 @@ THEN
 		SetGlobal("C02OspreyKhalid2","MYAREA",62)
 		SetGlobal("C02OspreyKhalid2_61","MYAREA",1)
 END
-
 IF
 	Global("C02OspreyKhalid2","MYAREA",61)
 	Global("C02OspreyKhalid2_61","MYAREA",0)
@@ -308,7 +289,6 @@ THEN
 		SetGlobal("C02OspreyKhalid2","MYAREA",70)
 		SetGlobal("C02OspreyKhalid2_61","MYAREA",1)
 END
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -317,53 +297,51 @@ IF
 	Switch("C02OspreyKhalid2","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("C0CR2OS",~Thank you for helping me to mend my tunic, Khalid.~)
+	DisplayStringHead("C0CR2OS",~哈立德，谢谢你帮我补外衣。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",2)
 RESPONSE #3
-	DisplayStringHead("Jaheira",~Again.~)
+	DisplayStringHead("Jaheira",~又来了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~...Again.~)
+	DisplayStringHead("C0CR2OS",~……又来了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Khalid",~N-no trouble at all, I assure you. Just... try to keep it in one piece for longer this... this time.~)
+	DisplayStringHead("Khalid",~没、没什么麻烦的，我保证。就是……这次尽量穿、穿久点，别再破了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~I'll try my best to. Your stitchwork is flawless, though. I can barely tell all the other places that I've ripped before.~)
+	DisplayStringHead("C0CR2OS",~我尽量吧。你的针线活真好。我以前撕破的地方，几乎都看不出来了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Khalid",~Just a useful skill I p-picked up in my lifetime. Though I'm surprised your first thought was to ask m-me and not Jaheira.~)
+	DisplayStringHead("Khalid",~就是个实用的小、小手艺，这辈子学的。不过我挺惊讶，你第一反应居然是找、找我，不是贾希拉。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~I'm worried Jaheira would get tired of me asking. She might scold me and tell me to stop having accidents in the first place.~)
+	DisplayStringHead("C0CR2OS",~我怕贾希拉嫌我烦。她说不定会骂我，说我本来就不该老是闯祸。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",60)
 RESPONSE #60
-	DisplayStringHead("Khalid",~She... well, she may indeed.~)
+	DisplayStringHead("Khalid",~她……嗯，说不定真会。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",61)
 RESPONSE #62
-	DisplayStringHead("Jaheira",~*ahem!*~)
+	DisplayStringHead("Jaheira",~*清嗓子*~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",70)
 RESPONSE #70
-	DisplayStringHead("Khalid",~H-however...! It is b-but her way of showing that she c-cares. And she would undoubtedly help in the end anyway.~)
+	DisplayStringHead("Khalid",~不、不过……！她就是这么表达关、关心的。而且到最后她肯定还是会帮忙的。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid2","MYAREA",80)
 RESPONSE #80
-	DisplayStringHead("C0CR2OS",~Yes, I can't argue with that! Still, maybe I'm not mature enough to take all my scoldings just yet. I got enough of that back at the library.~)
+	DisplayStringHead("C0CR2OS",~是啊，这我没法反驳！不过嘛，可能我还没长大，挨骂还是有点受不了。以前在图书馆里挨的骂够多了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyKhalid1","MYAREA",-1)
 END
-
 // M'KHIIN
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -372,35 +350,34 @@ IF
 	Switch("C02OspreyMkhiin1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Mkhiin",~You carry a lot of books with you. Looks heavy. Doesn't seem all that useful.~)
+	DisplayStringHead("Mkhiin",~你带了好多书。看着挺沉。好像没什么用。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~I'm a scribe, M'khiin. It's my job to keep records of things. Though you're right, it is all pretty heavy...~)
+	DisplayStringHead("C0CR2OS",~我是抄写员，姆金。记录事物是我的工作。不过你说得对，确实挺沉的……~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Mkhiin",~I don't think I've ever seen so many books in one place. Most goblins just throw them into the fire.~)
+	DisplayStringHead("Mkhiin",~我从没见过这么多书放一块儿。大多数哥布林都直接扔火里。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~That's... oh, I really don't want to be rude. But that just makes me angry.~)
+	DisplayStringHead("C0CR2OS",~这……哦，我无意冒犯。但这话让我很生气。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Mkhiin",~Don't need to watch your words around me. Goblins *are* stupid. I know that.~)
+	DisplayStringHead("Mkhiin",~跟我说话不用客气。哥布林本来就蠢。我知道。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin1","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~But you... I don't think you are, M'khiin.~)
+	DisplayStringHead("C0CR2OS",~但你……我觉得你不蠢，姆金。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin1","MYAREA",60)
 RESPONSE #60
-	DisplayStringHead("Mkhiin",~Not sure myself. Don't like to think too hard about things. Doesn't mean I don't know how.~)
+	DisplayStringHead("Mkhiin",~我自己也不确定。懒得想那么多。不代表我不懂。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin1","MYAREA",-1)
 END
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -409,41 +386,39 @@ IF
 	Switch("C02OspreyMkhiin2","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("C0CR2OS",~Do you know how to read our language, M'khiin?~)
+	DisplayStringHead("C0CR2OS",~姆金，你看得懂我们的文字吗？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin2","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("Mkhiin",~I can speak it.~)
+	DisplayStringHead("Mkhiin",~我会说。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin2","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("C0CR2OS",~Yes, I know. You speak it very well, too! But I meant... have you ever read a book written by humans?~)
+	DisplayStringHead("C0CR2OS",~我知道。你说得也很好！但我是说……你看过人类写的书吗？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin2","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("Mkhiin",~Never tried.~)
+	DisplayStringHead("Mkhiin",~没试过。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin2","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("C0CR2OS",~Would you like to start?~)
+	DisplayStringHead("C0CR2OS",~要不要学学？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin2","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("Mkhiin",~Don't know. Can't see the point.~)
+	DisplayStringHead("Mkhiin",~不知道。有什么用。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin2","MYAREA",60)
 RESPONSE #60
-	DisplayStringHead("C0CR2OS",~Well, what if it's just a way for us to become closer friends? You wouldn't object to that, right?~)
+	DisplayStringHead("C0CR2OS",~就当是……我们交个朋友的方式？你不会反对吧？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin2","MYAREA",70)
 RESPONSE #70
-	DisplayStringHead("Mkhiin",~Guess I've got no reason to. Why not.~)
+	DisplayStringHead("Mkhiin",~好像也没理由反对。行啊。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMkhiin2","MYAREA",-1)
 END
-
 // MINSC
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -452,37 +427,35 @@ IF
 	Switch("C02OspreyMinsc1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("C0CR2OS",~Minsc, um... about your mouse—I mean, hamster...~)
+	DisplayStringHead("C0CR2OS",~明斯克，那个……你的老鼠——我是说，仓鼠……~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMinsc1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("Minsc",~You speak of Boo? Do you have something you want to tell him? Here he is!~)
+	DisplayStringHead("Minsc",~你说布布？你有话要跟它说？它在这儿呢！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMinsc1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("C0CR2OS",~Ack! No, no no! Please put him away. I was actually going to beg you to keep him out from my pack!~)
+	DisplayStringHead("C0CR2OS",~啊！不，别别！快把它收起来。我正想求你别让它钻进我包里！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMinsc1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~I get enough of the mice and bugs that crawl around under the library's shelves! I can't stand them, especially when I find them gnawing on our valued books and scrolls!~)
+	DisplayStringHead("C0CR2OS",~图书馆书架底下爬的老鼠虫子还不够多吗！我受不了它们，尤其是它们啃我们珍贵的典籍和卷轴的时候！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMinsc1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Minsc",~Ho ho! Do not worry about that, Osprey. Boo has higher standards than his more savage cousins. Your books are safe from his teeth!~)
+	DisplayStringHead("Minsc",~哈哈！别担心，奥斯普蕾。布布可比它那些野蛮的同类有品位。你的书保准没事！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMinsc1","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~You sure about that? But isn't he... chewing on something right now as we speak?~)
+	DisplayStringHead("C0CR2OS",~你确定？可它现在……不是在嚼什么东西吗？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMinsc1","MYAREA",60)
 RESPONSE #60
-	DisplayStringHead("Minsc",~That is just his training for the next evil eyeball that will fall prey to his might! But he will not bare his fangs against a friend, that I can promise!~)
+	DisplayStringHead("Minsc",~那是它在训练，准备对付下一个邪恶的眼球怪！但它绝对不会对朋友亮獠牙，我保证！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyMinsc1","MYAREA",-1)
 END
-
 // NEERA
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -491,43 +464,42 @@ IF
 	Switch("C02OspreyNeera1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Neera",~You keep giving me the stink-eye, Osprey. Are you going to say something yet?~)
+	DisplayStringHead("Neera",~奥斯普蕾，你一直瞪我干嘛？有话就说。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~I'd rather not be rude.~)
+	DisplayStringHead("C0CR2OS",~我不想失礼。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Neera",~Well, consider me already offended. Why not just let it all out.~)
+	DisplayStringHead("Neera",~行啊，我已经觉得被冒犯了。有话直说吧。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~Look, Neera, I have nothing against you. But wild magic is harmful to the Weave. I can't just overlook that.~)
+	DisplayStringHead("C0CR2OS",~妮拉，你听我说，我对你没意见。但野魔法会伤害魔网。我不能视而不见。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Neera",~Right... so would you believe me if I said I don't like damaging the Weave or anything?~)
+	DisplayStringHead("Neera",~哦……那我说我也不想破坏魔网之类的，你信吗？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~Then why practice it at all?~)
+	DisplayStringHead("C0CR2OS",~那你为什么还要学？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",60)
 RESPONSE #60
-	DisplayStringHead("Neera",~I dunno, it just... comes more easily to me. It's not like I want to break the whole foundation of what mages depend on or anything. The normal ways just didn't click with me.~)
+	DisplayStringHead("Neera",~不知道，就是……我天生就会。我又不是想毁掉法师们赖以为生的根基。只是正规的法子不适合我。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",70)
 RESPONSE #70
-	DisplayStringHead("C0CR2OS",~Well, I think you just need to put in a little more effort.~)
+	DisplayStringHead("C0CR2OS",~我觉得你只是再多花点功夫就行。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",80)
 RESPONSE #80
-	DisplayStringHead("Neera",~I do. Just... in a different way. Maybe wild magic doesn't have to be a danger to the Weave. Someone just has to figure out how to make it work. And that someone might be me.~)
+	DisplayStringHead("Neera",~我花了啊。只是……方式不一样。说不定野魔法不一定非得危害魔网。总得有人想办法让它变好。说不定那个人就是我。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera1","MYAREA",-1)
 END
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -536,37 +508,35 @@ IF
 	Switch("C02OspreyNeera2","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Neera",~Osprey, can you PLEASE just stop POUTING at me already?!~)
+	DisplayStringHead("Neera",~奥斯普蕾，你能不能别再鼓着个脸对着我了！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera2","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~Nnnnrrggghh...~)
+	DisplayStringHead("C0CR2OS",~嗯嗯啊啊……~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera2","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Neera",~Look, I've told you a thousand times already, I'm sorry for setting your scrolls on fire!~)
+	DisplayStringHead("Neera",~喂，我都跟你说过一千遍了，我不是故意把你卷轴烧了的！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera2","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~They're still burnt to ashes.~)
+	DisplayStringHead("C0CR2OS",~可它们还是烧成灰了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera2","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Neera",~Maybe I can fix that too! I know I've learned a spell for it at some point.~)
+	DisplayStringHead("Neera",~说不定我还能修好！我记得我学过一个修复法术来着。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera2","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~You're only going to make it worse!~)
+	DisplayStringHead("C0CR2OS",~你只会越弄越糟！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera2","MYAREA",60)
 RESPONSE #60
-	DisplayStringHead("Neera",~No! Well... probably yes. Fine, be that way. But if you keep making that face, it'll get stuck like that.~)
+	DisplayStringHead("Neera",~不会！嗯……大概会。行吧，随便你。但你再摆这张脸，小心脸僵住。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyNeera2","MYAREA",-1)
 END
-
 // RASAAD
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -575,29 +545,27 @@ IF
 	Switch("C02OspreyRasaad1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("C0CR2OS",~I've read all about monks who practice martial arts, rather than the sorts of monk I know. It's so thrilling to actually meet one!~)
+	DisplayStringHead("C0CR2OS",~我读过很多武僧的事迹，修炼武道的僧侣，和我认识的僧侣不一样。今天真的见到了，好激动！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyRasaad1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("Rasaad",~I am glad to have offered this opportunity. Even I have met precious few outside of my own order. It sometimes feels as if we are from a different age.~)
+	DisplayStringHead("Rasaad",~我也很高兴有此机缘。我自己在宗门之外，也没见过多少同道。有时感觉我们像是来自另一个时代。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyRasaad1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("C0CR2OS",~Not at all! Nobody could dare call your practice obsolete if they've seen what you can do.~)
+	DisplayStringHead("C0CR2OS",~哪里的话！见过你身手的人，没人敢说你的修行过时了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyRasaad1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("Rasaad",~Would you care to learn more of our ways? I would be happy to enlighten you, on both the academic and practical sides.~)
+	DisplayStringHead("Rasaad",~你想多了解我们的修行吗？我很乐意赐教，无论是义理还是实操。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyRasaad1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("C0CR2OS",~Ah, hehe... I'll stick with the academic side, I think. I'm too clumsy to even think about doing acrobatics...~)
+	DisplayStringHead("C0CR2OS",~啊，呵呵……我还是学义理部分吧。我太笨手笨脚了，武技想都不敢想……~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyRasaad1","MYAREA",-1)
 END
-
 // SAFANA
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -606,37 +574,35 @@ IF
 	Switch("C02OspreySafana1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Safana",~Osprey, darling, are you talking to yourself again? People will think you insane, and me by association.~)
+	DisplayStringHead("Safana",~亲爱的奥斯普蕾，你又在自言自语啦？别人会以为你疯了，连带着我也一起。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreySafana1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~No, I was just reciting and memorizing what I've learned today. There's so much to keep track of.~)
+	DisplayStringHead("C0CR2OS",~没有，我只是在背诵今天学的东西。要记的东西太多了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreySafana1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Safana",~All that information going in at once can't be good for your pretty little head, my dear. Why don't you try taking it easy once in a while?~)
+	DisplayStringHead("Safana",~一下子塞这么多信息进你小脑袋里可不好。亲爱的，偶尔也放松一下嘛。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreySafana1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~Oh, I can't do that. If I'm not recording and remembering everything here, who will? Wait, actually... maybe you could help me, Safana!~)
+	DisplayStringHead("C0CR2OS",~哦，我可不能放松。我不把一切都记录下来、记住，谁来做？等等，其实……萨法娜，你能帮帮我吗！~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreySafana1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Safana",~Darling, I like living my life. If I had to live like you did, I'd go insane within the week, or likely sooner.~)
+	DisplayStringHead("Safana",~亲爱的，我有我自己的活法。要我像你那样过日子，不出一周我就得疯，说不定更快。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreySafana1","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("C0CR2OS",~I know all sorts of mental exercises that would keep your mind focused! I could show you some, if you like.~)
+	DisplayStringHead("C0CR2OS",~我知道好多脑力锻炼的法子，能帮你集中精神！你想的话，我可以教你。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreySafana1","MYAREA",60)
 RESPONSE #60
-	DisplayStringHead("Safana",~...No. Please don't.~)
+	DisplayStringHead("Safana",~……算了。别别。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreySafana1","MYAREA",-1)
 END
-
 // VICONIA
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -645,29 +611,27 @@ IF
 	Switch("C02OspreyViconia1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Viconia",~You have the grace of a rothe, Osprey. I would have expected the blood of my surface cousins, as contemptible as they are, to have bestowed at least some of their traits upon you.~)
+	DisplayStringHead("Viconia",~奥斯普蕾，你笨得像个地表蛮子。我还以为我那些地表同族再怎么不堪，也总该传点本事给你。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyViconia1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~I can't help it! I've always been this way, and my tutors eventually just learned to shake their heads and accept it.~)
+	DisplayStringHead("C0CR2OS",~我天生就这样！导师们最后也只能摇摇头，认了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyViconia1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Viconia",~Such a disgraceful failing would have spelled your doom long before adulthood, were you a drow.~)
+	DisplayStringHead("Viconia",~换做是卓尔，你这点毛病，活不到成年就死了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyViconia1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~I can believe that. Here, the worst thing I have to be afraid of is a scolding and a slap to the back of my head.~)
+	DisplayStringHead("C0CR2OS",~我信。在这儿，我最怕的也就是挨顿骂，后脑勺挨一下。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyViconia1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("Viconia",~Surfacers are too forgiving for their own good.~)
+	DisplayStringHead("Viconia",~地表人就是太宽容，才害了自己。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyViconia1","MYAREA",-1)
 END
-
 // VOGHILN
-
 IF
 	InMyArea(Player1)
 	!ActuallyInCombat()
@@ -676,31 +640,30 @@ IF
 	Switch("C02OspreyVoghiln1","MYAREA")
 THEN
 RESPONSE #1
-	DisplayStringHead("Voghiln",~Osprey, fair scholar! Would you care to spend a few moments and tell me of yourself?~)
+	DisplayStringHead("Voghiln",~奥斯普蕾，博学的学者！可否赏光聊聊，跟我说说你自己？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
 	SetGlobal("C02OspreyVoghiln1","MYAREA",10)
 RESPONSE #10
-	DisplayStringHead("C0CR2OS",~I, well, *ahem*, I'd love to, Voghiln, but I'm absolutely parched right now. I'd rather give my voice a rest for a moment.~)
+	DisplayStringHead("C0CR2OS",~我，呃，*清嗓子*我很乐意，沃希尔恩，可我现在嗓子干得厉害。想让嗓子歇会儿。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
 	SetGlobal("C02OspreyVoghiln1","MYAREA",20)
 RESPONSE #20
-	DisplayStringHead("Voghiln",~Well, what about a drink to sooth the throat, eh?~)
+	DisplayStringHead("Voghiln",~哦，那喝一杯润润喉如何？~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
 	SetGlobal("C02OspreyVoghiln1","MYAREA",30)
 RESPONSE #30
-	DisplayStringHead("C0CR2OS",~No, no, I couldn't. I have a very low tolerance... not to mention, bad things happen when I get drunk.~)
+	DisplayStringHead("C0CR2OS",~不，不行。我酒量很差……而且我喝醉了会出事。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyVoghiln1","MYAREA",40)
 RESPONSE #40
-	DisplayStringHead("C0CR2OS",~I start climbing on tables, doing vulgar dances, bump into shelves and knock things over... it's never a fun night after I start drinking.~)
+	DisplayStringHead("C0CR2OS",~我会爬到桌子上，跳不雅的舞，撞翻书架，碰掉东西……每次喝酒都没好事。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",3)
 	SetGlobal("C02OspreyVoghiln1","MYAREA",50)
 RESPONSE #50
-	DisplayStringHead("Voghiln",~Ha! Such things may be seen as poor courtesy here, but you'd be right at home at the celebrations I know of.~)
+	DisplayStringHead("Voghiln",~哈！这在这儿或许是失礼，但在我知道的那些庆典上，你可算如鱼得水了。~)
 	SetGlobalTimer("BD_BANTER_DELAY","MYAREA",4)
 	SetGlobal("C02OspreyVoghiln1","MYAREA",-1)
 END
-
 IF
   !GlobalTimerNotExpired("BD_BANTER_DELAY","MYAREA")
 THEN

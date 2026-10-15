@@ -1,63 +1,62 @@
-
 LAF HANDLE_AUDIO END
 
 COPY_EXISTING ~osprey.cre~ ~override~
-  SAY INITIAL_MEETING ~Mmm?~ [C0CR2Of]
-  SAY MORALE ~We must run!~ [C0CR2Ou_]
-  SAY LEADER ~Follow me!~ [C0CR2Ot]
-  SAY TIRED ~I need to rest, just for a moment.~ [C0CR2Oc]
-  SAY BORED ~We're going to do something soon, I hope?~ [C0CR2Od]
-  SAY BATTLE_CRY1 ~I shall be victorious!~ [C0CR2Og_]
-  SAY DAMAGE ~Uff!~ [C0CR2Ol]
-  SAY DYING ~Hhhhh... ahhhhh...~ [C0CR2Om]
-  SAY HURT ~I need healing!~ [C0CR2Oe]
-  SAY SELECT_COMMON1 ~Mmm?~ [C0CR2Of]
-  SAY SELECT_ACTION1 ~Alright.~ [C0CR2Oi]
-  SAY SELECT_ACTION2 ~It's finished.~ [C0CR2Oj]
-  SAY SELECT_ACTION3 ~Indeed.~ [C0CR2Ok]
-  SAY CRITICAL_HIT ~Take that!~ [C0CR2O8]
-  SAY CRITICAL_MISS ~Blast!~ [C0CR2O1]
-  SAY TARGET_IMMUNE ~My weapon is of no use!~ [C0CR2O2]
-  SAY INVENTORY_FULL ~Enough! I can carry no more.~ [C0CR2O3]
-  SAY SPELL_DISRUPTED ~My spell has failed!~ [C0CR2O6]
-  SAY HIDDEN_IN_SHADOWS ~Like a shadow.~ [C0CR2O5]
-
+  SAY INITIAL_MEETING ~嗯？~ [C0CR2Of]
+  SAY MORALE ~我们得快跑！~ [C0CR2Ou_]
+  SAY LEADER ~跟我来！~ [C0CR2Ot]
+  SAY TIRED ~我得歇会儿，就一小会儿。~ [C0CR2Oc]
+  SAY BORED ~希望我们马上就能有事做吧？~ [C0CR2Od]
+  SAY BATTLE_CRY1 ~胜利必将属于我！~ [C0CR2Og_]
+  SAY DAMAGE ~呃啊！~ [C0CR2Ol]
+  SAY DYING ~呃啊……啊……~ [C0CR2Om]
+  SAY HURT ~我需要治疗！~ [C0CR2Oe]
+  SAY SELECT_COMMON1 ~嗯？~ [C0CR2Of]
+  SAY SELECT_ACTION1 ~好的。~ [C0CR2Oi]
+  SAY SELECT_ACTION2 ~结束了。~ [C0CR2Oj]
+  SAY SELECT_ACTION3 ~没错。~ [C0CR2Ok]
+  SAY CRITICAL_HIT ~吃我一击！~ [C0CR2O8]
+  SAY CRITICAL_MISS ~该死！~ [C0CR2O1]
+  SAY TARGET_IMMUNE ~我的武器毫无作用！~ [C0CR2O2]
+  SAY INVENTORY_FULL ~够了！我拿不动了。~ [C0CR2O3]
+  SAY SPELL_DISRUPTED ~我的法术被打断了！~ [C0CR2O6]
+  SAY HIDDEN_IN_SHADOWS ~如影随形。~ [C0CR2O5]
+  
 COPY ~%MOD_FOLDER%/cre/C0CR2OS.cre~ ~override~
-  SAY NAME1 ~Osprey~
-  SAY NAME2 ~Osprey~
+  SAY NAME1 ~奥斯普蕾~
+  SAY NAME2 ~奥斯普蕾~
   WRITE_ASCII 0x248 ~C0CR2OS~ #8  //override script
   WRITE_ASCII 0x280 ~C0CR2OS~ #32  //DV
   WRITE_ASCII 0x2cc ~C0CR2OS~ #8   //pre-joining dialogue file
-  SAY BIO ~OSPREY is a trainee scribe and a childhood friend of yourself and Imoen. A devout—perhaps exceedingly so—worshipper of Deneir, god of scholars and knowledge, nobody could be less out of place in a place such as Candlekeep as Osprey. Capable in both arcane and divine magic, Osprey is an eager student and loves knowledge of all sorts.
-  
-From what you recall, Osprey is the daughter of an elderly Candlekeep scribe, and like you and Imoen, has lived within the castle's walls for most of her life. Aside from being a faithful Deneirrath, she is one of Tethtoril's favored students, and is a devoted scholar of literature, history and magical knowledge. As such, Osprey has a deeply academic understanding of the arcane arts, and views knowledge as the greatest blessing can be bestowed upon mortals. Though often clumsy and prone to preaching, Osprey has a gentle disposition and considers it her duty to use her skills to aid those in need.
-  
-When you last met Osprey, she had left Candlekeep with the famed priest of Deneir, Cadderly Bonaduce, to study under him at the Spirit Soaring monastery. However, after the news of the impending war on the Sword Coast and the crusade reached the Spirit Soaring, Osprey received Cadderly's blessing to return home and join the Flaming Fist to protect her homeland.~
-  SAY INITIAL_MEETING ~Mmm?~ [C0CR2Of]
-  SAY MORALE ~We must run!~ [C0CR2Ou_]
-  SAY LEADER ~Follow me!~ [C0CR2Ot]
-  SAY TIRED ~I need to rest, just for a moment.~ [C0CR2Oc]
-  SAY BORED ~We're going to do something soon, I hope?~ [C0CR2Od]
-  SAY BATTLE_CRY1 ~Watch out!~ [C0CR2Oa]
-  SAY BATTLE_CRY2 ~You are nothing, nothing at all!~ [C0CR2Oh_]
-  SAY BATTLE_CRY3 ~For glory!~ [C0CR2O9]
-  SAY BATTLE_CRY4 ~I shall be victorious!~ [C0CR2Og_]
-  SAY DAMAGE ~Uff!~ [C0CR2Ol]
-  SAY DYING ~Hhhhh... ahhhhh...~ [C0CR2Om]
-  SAY HURT ~I need healing!~ [C0CR2Oe]
-  SAY SELECT_COMMON1 ~Mmm?~ [C0CR2Of]
-  SAY SELECT_COMMON2 ~Greetings.~ [C0CR2Og]
-  SAY SELECT_COMMON3 ~I'll keep an eye out.~ [C0CR2Ov]
-  SAY SELECT_ACTION1 ~Alright.~ [C0CR2Oi]
-  SAY SELECT_ACTION2 ~It's finished.~ [C0CR2Oj]
-  SAY SELECT_ACTION3 ~Indeed.~ [C0CR2Ok]
-  SAY SELECT_ACTION4 ~I'll take a look at that.~ [C0CR2Ou]
-  SAY CRITICAL_HIT ~Take that!~ [C0CR2O8]
-  SAY CRITICAL_MISS ~Blast!~ [C0CR2O1]
-  SAY TARGET_IMMUNE ~My weapon is of no use!~ [C0CR2O2]
-  SAY INVENTORY_FULL ~Enough! I can carry no more.~ [C0CR2O3]
-  SAY SPELL_DISRUPTED ~My spell has failed!~ [C0CR2O6]
-  SAY HIDDEN_IN_SHADOWS ~Like a shadow.~ [C0CR2O5]
+  SAY BIO ~奥斯普蕾是一名见习抄写员，也是你与爱蒙的童年好友。她是学者与知识之神迪奈尔的虔诚信徒——甚至可以说有些过于虔诚，在烛堡这样的地方，再没有比她更适配这里的人了。奥斯普蕾兼修奥术与神术，求知若渴，热爱各类学问。
+
+在你的记忆里，奥斯普蕾是烛堡一位年迈抄写员的女儿，和你与爱蒙一样，她人生的大部分时光都在城堡的高墙内度过。作为一名虔诚的迪奈尔信徒，她是泰瑟托尔最赏识的学生之一，潜心钻研文学、历史与魔法知识。也正因此，奥斯普蕾对奥术有着极为深厚的学术理解，她将知识视为凡人所能获得的至高恩赐。尽管她时常笨手笨脚，还总爱说教，但性情温和，认为用自己的能力帮助有需要的人是她的职责。
+
+你上次见到奥斯普蕾时，她正随迪奈尔的著名牧师卡德利·博纳杜斯离开烛堡，前往翔灵修道院随其修行。但当剑湾战事将至、圣战爆发的消息传到翔灵修道院后，奥斯普蕾得到了卡德利的祝福，启程返乡，加入炎骑士团以守护故土。~
+  SAY INITIAL_MEETING ~嗯？~ [C0CR2Of]
+  SAY MORALE ~我们得快跑！~ [C0CR2Ou_]
+  SAY LEADER ~跟我来！~ [C0CR2Ot]
+  SAY TIRED ~我得歇会儿，就一小会儿。~ [C0CR2Oc]
+  SAY BORED ~希望我们马上就能有事做吧？~ [C0CR2Od]
+  SAY BATTLE_CRY1 ~小心！~ [C0CR2Oa]
+  SAY BATTLE_CRY2 ~你不堪一击，什么都不是！~ [C0CR2Oh_]
+  SAY BATTLE_CRY3 ~为了荣耀！~ [C0CR2O9]
+  SAY BATTLE_CRY4 ~胜利必将属于我！~ [C0CR2Og_]
+  SAY DAMAGE ~呃啊！~ [C0CR2Ol]
+  SAY DYING ~呃啊……啊……~ [C0CR2Om]
+  SAY HURT ~我需要治疗！~ [C0CR2Oe]
+  SAY SELECT_COMMON1 ~嗯？~ [C0CR2Of]
+  SAY SELECT_COMMON2 ~幸会。~ [C0CR2Og]
+  SAY SELECT_COMMON3 ~我会留意的。~ [C0CR2Ov]
+  SAY SELECT_ACTION1 ~好的。~ [C0CR2Oi]
+  SAY SELECT_ACTION2 ~结束了。~ [C0CR2Oj]
+  SAY SELECT_ACTION3 ~没错。~ [C0CR2Ok]
+  SAY SELECT_ACTION4 ~我去看看。~ [C0CR2Ou]
+  SAY CRITICAL_HIT ~吃我一击！~ [C0CR2O8]
+  SAY CRITICAL_MISS ~该死！~ [C0CR2O1]
+  SAY TARGET_IMMUNE ~我的武器毫无作用！~ [C0CR2O2]
+  SAY INVENTORY_FULL ~够了！我拿不动了。~ [C0CR2O3]
+  SAY SPELL_DISRUPTED ~我的法术被打断了！~ [C0CR2O6]
+  SAY HIDDEN_IN_SHADOWS ~如影随形。~ [C0CR2O5]
     ADD_KNOWN_SPELL ~C0CR#OSS~ #0 ~INNATE~
     ADD_MEMORIZED_SPELL ~C0CR#OSS~ #0 ~INNATE~ (1)
 
@@ -68,50 +67,50 @@ COPY_EXISTING ~C0CR2OS.cre~ ~override~
   END
 
 COPY ~%MOD_FOLDER%/itm/SOD/C0CR2LE.ITM~ ~OVERRIDE~
-SAY NAME2 ~Leather Armor of the Scribe~
-SAY DESC ~Leather armor, despite the popular misconception, is not soft and supple like the leather used to make a Ranger's boots or a Druid's robe. That kind of leather offers no better protection than common clothing. This particular suit of bluish-grey armor has the colors and symbol commonly worn by followers of Deneir, the Great Scribe.
+SAY NAME2 ~抄写员皮甲~
+SAY DESC ~与普遍误解不同，皮甲并非像游侠靴子或德鲁伊长袍所用的皮革那般柔软柔韧。那种皮革的防护力与普通衣物别无二致。这套蓝灰色的护甲带有大抄写员迪奈尔的信徒所常用的配色与徽记。
 
-STATISTICS:
+属性：
 
-Equipped abilities:
-– Does not disable spellcasting
-– Save vs. Spells: +2
+装备效果：
+– 不影响施法
+– 法术豁免：+2
 
-Armor Class: 7 (9 vs. piercing and missile)
-Requires:
- 4 Strength
-
-Weight: 10~
+护甲等级：7（对抗穿刺与远程攻击时为9）
+需求：
+ 力量 4
+ 
+重量：10~
 
 COPY ~%MOD_FOLDER%/itm/SOD/C0CR2HA.EFF~ ~OVERRIDE~
 COPY ~%MOD_FOLDER%/itm/SOD/C0CR2HA.ITM~ ~OVERRIDE~
-SAY NAME2 ~Hammer of Justice~
-SAY DESC ~The zealous but good-hearted warrior known only as "The Law" gained fame when he created this set of magic weapons to arm the forces of law and discipline. Each was fueled by his burning desire to eradicate chaotic behavior and, as such, they became powerful tools in the maintenance of order.
+SAY NAME2 ~正义之锤~
+SAY DESC ~那位只被称作「律法」的战士热忱而善良，他打造了这套魔法武器用以武装律法与秩序之力，由此声名远扬。每一把武器都灌注着他根除混乱的炽烈意志，也因此成为了维护秩序的强力武器。
 
-STATISTICS:
+属性：
 
-THAC0: +1, +3 vs. chaotic
-Damage: 1d4+2, +4 vs. chaotic
-Damage type: crushing
-Speed Factor: 3
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
-
-Weight: 6~
+零级命中值：+1，对抗混乱阵营时+3
+伤害：1d4+2，对抗混乱阵营时+4
+伤害类型：粉碎
+速度因子：3
+擅长类型：战锤
+类型：单手
+需求：
+ 力量 9
+ 
+重量：6~
 
 COPY ~%MOD_FOLDER%/itm/SOD/C0CR2RI.ITM~ ~OVERRIDE~
-SAY NAME2 ~Ring of Theology~
-SAY DESC ~Ring of Theology
-This ring bears the mark of the Edificant Library, a once-revered center of knowledge. Scholars serving the church of Deneir specializing in the study of the gods and the divine wore them as a symbol of their field of study, and many at least held a theoretical understanding of the arcane arts. Though the Edificant Library was destroyed by the machinations of dark powers, Cadderly Bonaduce built the Spirit Soaring in its place and preserved much of their knowledge and mementos. This ring is one such example.
+SAY NAME2 ~神学之戒~
+SAY DESC ~神学之戒
+这枚戒指印有宏识图书馆的印记——那曾是一座备受尊崇的知识圣地。侍奉迪奈尔教会、专攻神祇与神术研究的学者们佩戴它，作为自身研究领域的象征，其中许多人至少在理论层面通晓奥术。尽管宏识图书馆已在黑暗势力的阴谋中被毁，卡德利·博纳杜斯在其原址上建立了翔灵修道院，保存了大量知识与遗物，这枚戒指便是其中之一。
 
-STATISTICS:
+属性：
 
-Equipped abilities:
-– Can memorize one extra 1st- and 2nd-level wizard spell and one extra 1st- and 2nd-level priest spell.
+装备效果：
+– 可额外记忆1个1环与1个2环法师法术，以及1个1环与1个2环牧师法术。
 
-Weight: 0~
+重量：0~
 
 APPEND ~bddialog.2da~
 ~C0CR2OS        C0CR2OS	C0CR2OSJ	C0CR2OSD~
@@ -146,4 +145,4 @@ ACTION_IF GAME_IS ~eet~ BEGIN
       //Nalia, Neera, Quayle, Rasaad, Safana, SharTeel, Skie, Tiax, Valygar, Viconia, Voghiln, Wilson, Xan, Xzar, Yeslick, Yoshimo
       //variable not set (default) = NPC name appended at the end of summoning list */
   END
-END	
+END

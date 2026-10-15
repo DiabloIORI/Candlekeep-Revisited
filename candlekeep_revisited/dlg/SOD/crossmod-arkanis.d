@@ -1,14 +1,14 @@
 CHAIN IF WEIGHT #-1 ~Global("C02OspreyL#SDA","GLOBAL",1)~ THEN C0CR2OSJ Arkanis
-~It's good to see you again, Arkanis.~
+~又见到你了，阿坎尼斯。~
 DO ~SetGlobal("C02OspreyL#SDA","GLOBAL",2)~
-== L#SDAJ ~And you too, dear Osprey. Look at how you've grown in just a few months. I never thought we'd see each other again so soon, but I'm glad we did.~
-== C0CR2OSJ ~I wouldn't have thought it either! I was even more surprised when I read your letter telling me that the church of Oghma had officially accepted you. Should I also call you Sir Arkanis now?~
-== L#SDAJ ~Heh. Sir or not, it's all the same to me when it comes to you. There's no hierarchy between old friends.~
-== C0CR2OSJ ~Hehe...~
-== L#SDAJ ~So, how has life in Erlkazar been treating you? I imagine the Spirit Soaring isn't so different from Candlekeep, just with more freedom now, eh?~
-== C0CR2OSJ ~Oh, it's been wonderful. Trying to get used to a new life hasn't been the easiest, but with master Cadderly's help, I've settled in. And made quite a few new friends too.~
-== L#SDAJ ~That's good. But it seems you haven't forgotten your old friends either, have you? I heard you ran right back here as soon as the news of the crusade hit.~
-== C0CR2OSJ ~I did. For about the same reasons as you, I imagine. We can't leave <CHARNAME> when <PRO_HESHE> needs us, even if we're no longer in Candlekeep, right?~
-== L#SDAJ ~Exactly right. Show me what you've learned in the time you've spent out here, Osprey!~
-== C0CR2OSJ ~And I'll be expecting the same from you, Arkanis!~
+== L#SDAJ ~你也是，亲爱的奥斯普蕾。瞧瞧，才几个月你就成长了这么多。我从没想过我们这么快就能再见面，不过真的很高兴。~
+== C0CR2OSJ ~我也没想到！读到你的信，说欧格玛教会正式接纳了你，我更惊讶。我现在是不是该叫你阿坎尼斯爵士了？~
+== L#SDAJ ~呵。对你来说，爵士与否都一样。老朋友之间，哪有什么尊卑之分。~
+== C0CR2OSJ ~呵呵……~
+== L#SDAJ ~对了，埃尔卡扎的日子过得怎么样？我想翔灵修道院和烛堡也差不了多少，只不过更自由些，对吧？~
+== C0CR2OSJ ~哦，好极了。适应新生活没那么容易，但有卡德利大师帮忙，我已经安顿下来了。还交了不少新朋友。~
+== L#SDAJ ~那就好。但看来你也没忘了老朋友，是吧？听说圣战的消息一传来，你就立刻赶回来了。~
+== C0CR2OSJ ~是啊。我想原因和你一样吧。就算我们不在烛堡了，<CHARNAME>需要我们的时候，我们也不能袖手旁观，对吧？~
+== L#SDAJ ~说得太对了。奥斯普蕾，让我看看你这段时间都学了些什么本事！~
+== C0CR2OSJ ~我也正想看看你的长进呢，阿坎尼斯！~
 EXIT
