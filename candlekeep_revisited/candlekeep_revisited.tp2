@@ -37,7 +37,7 @@ AUTO_TRA ~candlekeep_revisited/tra/%s~ //~%~
 LANGUAGE 
   ~English~ 
   ~english~
-  ~%MOD_FOLDER%/tra/english/setup.tra~
+  //~%MOD_FOLDER%/tra/english/setup.tra~
   ~%MOD_FOLDER%/tra/english/journal.tra~
   
 LANGUAGE 
