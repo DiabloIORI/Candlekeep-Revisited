@@ -37,13 +37,13 @@ AUTO_TRA ~candlekeep_revisited/tra/%s~ //~%~
 LANGUAGE 
   ~English~ 
   ~english~
-  ~%MOD_FOLDER%/tra/english/GAME-C0CR2OS.TRA~
+  ~%MOD_FOLDER%/tra/english/setup.tra~
   ~%MOD_FOLDER%/tra/english/journal.tra~
   
 LANGUAGE 
   ~Simplified Chinese (By Yoshimo0417)~ 
   ~schinese~
-  ~%MOD_FOLDER%/tra/schinese/GAME-C0CR2OS.TRA~
+  ~%MOD_FOLDER%/tra/schinese/setup.tra~
   ~%MOD_FOLDER%/tra/schinese/journal.tra~
 
 BEGIN ~Candlekeep Revisited: BG1 Prologue Expansion~ DESIGNATED 0
